@@ -10,4 +10,4 @@
 5. 
 6. UpSkill Lab at Epam
 7. GGAU, economist
-8. 
+8. English level A2
