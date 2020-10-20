@@ -7,7 +7,7 @@
    - HTML
    - CSS
    - JS
-5. 
+5. Developmenst: the Calculator
 6. UpSkill Lab at Epam
 7. GGAU, economist
 8. English level A2
