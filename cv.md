@@ -9,5 +9,5 @@
    - JS
 4. Developmenst: the Calculator
 5. UpSkill Lab at Epam
-6. GGAU, economist
+6. Education: GGAU, economist
 7. English level A2
