@@ -1,11 +1,19 @@
-body {
+main {
     background-color: lightblue;
+    border: solid;
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+
 }
+
+
     
 .container {
+    background-color: lightblue;
     width: 100%;
-    max-width: 1024px;
-    padding: 0 15px;
+    max-width: 900px;
+    padding-top: 15px;
     margin: 0 auto;
   }
 
@@ -16,29 +24,34 @@ body {
   }
 
   .picture {
-    width: 30%;
+    width: 50%;
       float: left;
       
   }
 
   .name {
-      padding-top: 1cm;
+     
       font-size: 25px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-      float: right;
+      width: 50%;
+      
+      float: left;
       
   }
 
   .education {
+      font-size: 25px;
     width: 50%;
     float: left;
+    padding-top: 1cm;
     
   }
 
   .skill {
+      padding-top: 1cm;
+    font-size: 25px;
     width: 45%;
-    float: right;
+    float: left;
     
   }
 
@@ -50,25 +63,30 @@ body {
 
   .dev {
     width: 45%;
-    float: right;
-    
+    float: left;
+    padding-top: 1cm;
+    font-size: 25px;
   }
-/* .content {
-    max-width: 1024px; 
-    margin: 0 auto;
-    
-    font-size: 32px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
+  b {
+      text-decoration: underline;
+  }
 
-ol {
-        list-style-position: inside; 
+  ul {
+      font-size: 20px;
+      text-align: left;
+  }
+  
+  hr {
+    border: none;
+    background-color: black; 
+        height: 2px;
    }
 
+.number{
+    padding-right: 7cm;
+    }
 
-
-.time {
-    text-align: center;
-} */ */
+footer {
+    padding-bottom: 5px;
+}
