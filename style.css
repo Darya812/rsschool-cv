@@ -1,45 +1,40 @@
 main {
     background-color: lightblue;
     border: solid;
+    border-radius: 15px;
     max-width: 900px;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
+
 
 }
 
 
-    
+/*     
 .container {
-    background-color: lightblue;
-    width: 100%;
-    max-width: 900px;
-    padding-top: 15px;
-    margin: 0 auto;
+    padding: 15px;
+   
   }
 
-  .container:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 
   .picture {
-    width: 50%;
-      float: left;
+    padding: 10px;
+     
       
   }
 
   .name {
      
-      font-size: 25px;
+      font-size: 20px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       width: 50%;
       
       float: left;
       
-  }
+  } */
 
-  .education {
+  /* .education {
       font-size: 25px;
     width: 50%;
     float: left;
@@ -89,4 +84,5 @@ main {
 
 footer {
     padding-bottom: 5px;
-}
+  
+} */
