@@ -2,37 +2,38 @@ main {
     background-color: lightblue;
     border: solid;
     border-radius: 15px;
-    max-width: 900px;
+    width: 100%;
     text-align: center;
-    /* margin: auto; */
+    margin: auto;
 
 
 }
 
 
-/*     
-.container {
-    padding: 15px;
-   
-  }
+.picture {
+  display: flex;
+  
+}
 
 
-
-  .picture {
-    padding: 10px;
-     
-      
-  }
-
-  .name {
-     
+.name {
+     display: flex;
       font-size: 20px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      width: 50%;
+      justify-content: flex-end;
+      align-items: flex-start;
       
-      float: left;
-      
-  } */
+  } 
+
+  .skill {
+   display: flex;
+   
+  font-size: 25px;
+  
+ 
+  
+}
+
 
   /* .education {
       font-size: 25px;
@@ -42,14 +43,7 @@ main {
     
   }
 
-  .skill {
-      padding-top: 1cm;
-    font-size: 25px;
-    width: 45%;
-    float: left;
-    
-  }
-
+  
   .level {
     width: 50%;
     float: left;
