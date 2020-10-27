@@ -1,109 +1,165 @@
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
-  max-width: 1024px;
   margin: auto;
-    background: linear-gradient(to bottom,black, white);
+   background: linear-gradient(to bottom,#A9A9A9, #FFB6C1);
 }
 
 header {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+ 
+  padding-top: 2%;
+  width: 100%;
+  max-width: 1024px;
+  align-content: center;
+  margin: auto;
 }
 
 figure {
-  display: block;
-  margin: 40px;
-}
-
-main {
   display: flex;
-  flex-direction: column;
-}
+  margin: 0;
+  width: 30%;
+  }
 
 .nameContacts {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  width: 70%;
+  align-content: space-around;
+  margin: 0;
+  
 }
 
 .name {
   display: block;
-  flex-direction: column;
+  font-size: 45px;
+  text-align: center;
+  height: 50%;
+  margin: 0;
 }
 
 h1 {
   display: block;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 35px;
+  font-size: 55px;
+  margin: 0;
 }
 
-address {
+.contInfo {
   display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  font-style: oblique;
-}
-
-.contacts {
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  font-style: italic;
-} 
-
-a {
-  font-style: normal;
+  justify-content: space-evenly;
+  width: 100%;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+} 
+
+.tel {
+     font-style: italic;
+   text-align: center;
+   
 }
+
+.email {
+   text-align: center;
+      font-style: italic;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1024px;
+  align-content: center;
+  margin: auto;
+} 
 
 .text {
-  padding: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-p {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
 }
 
 .practice {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+  width: 100%;
+  max-width: 1024px;
+    margin: auto;
+
 }
 
 .skillEducation {
-  display: inline-flex;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+   
 }
 
 .skill {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  align-items: flex-start;
+  
 }
 
-h2 {
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
-}
+
 
 .education {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  align-items: flex-start;
+  
 }
 
-.developments {
-  display: block;
+.devLang {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  
+
+.dev {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  align-items: flex-start;
 }
 
 .languege {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  align-items: flex-start;
+ 
 }
 
 footer {
-  display: block;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-content: center;
+  margin: auto;
+
 }
+
 
