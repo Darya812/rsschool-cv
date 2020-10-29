@@ -4,69 +4,34 @@ body {
   justify-content: center;
   width: 100%;
   margin: auto;
-   background: linear-gradient(to bottom,#A9A9A9, #FFB6C1);
+  background: linear-gradient(to bottom, #a9a9a9, white);
 }
 
 header {
   display: flex;
-  flex-direction: row;
- 
-  padding-top: 2%;
+  flex-direction: column;
   width: 100%;
   max-width: 1024px;
-  align-content: center;
   margin: auto;
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
 
-figure {
-  display: flex;
-  margin: 0;
-  width: 30%;
-  }
-
-.nameContacts {
+.name-title {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 70%;
-  align-content: space-around;
-  margin: 0;
-  
+  width: 100%;
 }
 
 .name {
-  display: block;
   font-size: 45px;
-  text-align: center;
-  height: 50%;
-  margin: 0;
 }
 
 h1 {
-  display: block;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 55px;
-  margin: 0;
-}
-
-.contInfo {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-} 
-
-.tel {
-     font-style: italic;
-   text-align: center;
-   
-}
-
-.email {
-   text-align: center;
-      font-style: italic;
-  
+  margin: auto;
 }
 
 main {
@@ -76,90 +41,161 @@ main {
   max-width: 1024px;
   align-content: center;
   margin: auto;
-} 
+}
 
-.text {
+.about-me {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 599px) {
+  .about-me {
+    flex-direction: column;
+  }
+  .about {
+    float: none;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  figure {
+    flex-direction: column;
+    float: none;
+    width: 100%;
+  }
+  .my-picture {
+    width: 100%;
+  }
+  .contInfo {
+    flex-direction: column;
+  }
+}
+
+figure {
+  display: block;
+  float: left;
+  margin: auto;
+}
+
+.about {
+  display: block;
+  float: right;
+  font-size: 30px;
+  margin-left: 5%;
+  text-align: justify;
+}
+
+hr {
+  color: white;
+  width: 100%;
+  background-color: white;
+  border: 5px solid;
+  opacity: 25%;
+  border-radius: 5px;
+}
+.practice {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 1024px;
   margin: 0;
-  text-align: center;
-  font-size: 20px;
-}
-
-.practice {
-  display: flex;
-  flex-direction:column;
-  width: 100%;
-  max-width: 1024px;
-    margin: auto;
-
 }
 
 .skillEducation {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: auto;
-   
+  margin: 0;
 }
 
 .skill {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 50%;
   text-align: center;
-  align-items: flex-start;
-  
+  list-style-position: inside;
 }
-
-
 
 .education {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 50%;
   text-align: center;
-  align-items: flex-start;
-  
 }
 
 .devLang {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: auto;
-  
+  margin: 0;
+}
 
 .dev {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 50%;
   text-align: center;
-  align-items: flex-start;
 }
 
-.languege {
+.language {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 50%;
   text-align: center;
-  align-items: flex-start;
- 
+}
+p {
+  margin: 0;
+  margin-left: 55px;
+  text-align: left;
+}
+
+ul {
+  margin: 0;
+  margin-left: 10px;
+  text-align: left;
 }
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   align-content: center;
+  width: 100%;
+  max-width: 1024px;
   margin: auto;
-
 }
 
+.contInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.tel {
+  font-style: italic;
+  text-align: center;
+  width: 50%;
+}
+
+.email {
+  text-align: center;
+  font-style: italic;
+  width: 50%;
+}
+
+a {
+  color: black;
+}
