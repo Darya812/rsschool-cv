@@ -1,3 +1,3 @@
 # rsschool-cv
 
-My name is Dasha
+https://Darya812.github.io/rsschool-cv/
