@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+   background: linear-gradient(to bottom,#A9A9A9, #FFB6C1);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+ 
+  padding-top: 2%;
+  width: 100%;
+  max-width: 1024px;
+  align-content: center;
+  margin: auto;
+}
+
+figure {
+  display: flex;
+  margin: 0;
+  width: 30%;
+  }
+
+.nameContacts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  align-content: space-around;
+  margin: 0;
+  
+}
+
+.name {
+  display: block;
+  font-size: 45px;
+  text-align: center;
+  height: 50%;
+  margin: 0;
+}
+
+h1 {
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 55px;
+  margin: 0;
+}
+
+.contInfo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.tel {
+     font-style: italic;
+   text-align: center;
+   
+}
+
+.email {
+   text-align: center;
+      font-style: italic;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1024px;
+  align-content: center;
+  margin: auto;
+} 
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.practice {
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  max-width: 1024px;
+    margin: auto;
+
+}
+
+.skillEducation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+   
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  align-items: flex-start;
+  
+}
+
+
+
+.education {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  align-items: flex-start;
+  
+}
+
+.devLang {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  
+
+.dev {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.languege {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  align-items: flex-start;
+ 
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+
+}
+
+
